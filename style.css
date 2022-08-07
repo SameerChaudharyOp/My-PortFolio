@@ -350,10 +350,58 @@
     font-size: 10px;
     margin-top: 10px; 
 }
+}
+@media screen and (min-device-width: 450px) and (max-device-width: 768px) { 
+    .sidebar nav{
+    padding: 30px;
+    
+}
+.main{
+   background-color: lightskyblue;
+    width: 100vh;
+}
+.devInfo{
+    margin-left: -30px;
+    text-align: center;
+    justify-content: center;
+}
 
 
-  }
-  @media only screen and (max-width: 641px) {
+
+.hello{
+    margin-left: none;
+    /* margin-right: 70px */
+}
+.name{
+    margin-left: none;
+    white-space: nowrap;
+    
+}
+.about{
+    white-space: nowrap;  
+    margin-top: 6px; 
+}
+.devPic{
+    margin-left: 35px;
+}
+.btn1 {
+    margin-top: 20px;
+}
+.btn2{
+    margin-top: 20px;
+}
+
+
+
+}
+
+
+
+
+
+
+
+ /* @media only screen and (max-width: 641px) {
 
     .devPic img{
     margin-top: -40px;
@@ -377,4 +425,4 @@
     font-size: 9px;
     margin-top: 9px; 
 }
-  }
+  } */
